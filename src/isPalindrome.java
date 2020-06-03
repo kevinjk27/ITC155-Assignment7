@@ -26,7 +26,7 @@ public class isPalindrome {
 		while (!Q.isEmpty()) {
 			S.push(Q.remove());
 		}		
-		Stack<Integer> Sduplicate = S;
+//		Stack<Integer> Sduplicate = S;
 		
 	
 		
@@ -36,7 +36,7 @@ public class isPalindrome {
 
 
 		System.out.println("Qduplicate = " +Qduplicate);
-		System.out.println("s = " +Sduplicate);
+//		System.out.println("s = " +Sduplicate);
 		System.out.println("q = " +Q);
 
 		if (Q == Qduplicate) {
