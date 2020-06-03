@@ -1,3 +1,8 @@
+/*
+ * 06/02/2020 
+ * Replaces every value in the stack with two occurrences of that value and preserve the original relative order
+ */
+
 import java.util.*;
 
 public class stutter {
