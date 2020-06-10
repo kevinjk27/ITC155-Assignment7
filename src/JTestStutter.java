@@ -1,13 +1,12 @@
-import org.junit.jupiter.api.Assertions;
+import static org.junit.Assert.assertEquals;
 import org.junit.jupiter.api.Test;
-
-import java.util.*;
+import java.util.Stack;
 
 class JTestStutter {
 
 	@Test
 	void testStutter() {
-		Integer[] data = { 72, -4, 13, 9 };
+		int[] data = { 72, -4, 13, 9 };
 		Stack<Integer> stack = new Stack<Integer>();
 		for (int num : data) {
 			stack.push(num);
@@ -19,7 +18,7 @@ class JTestStutter {
 			stackOutcome.push(num);
 		}
 
-		Assertions.assertEquals(stackOutcome, stutter.stutter(stack));
+		assertEquals(stackOutcome, stutter.stutter(stack));
 
 	}
 
