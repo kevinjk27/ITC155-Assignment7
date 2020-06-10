@@ -14,10 +14,10 @@ public class stutter {
 			stack.push(num);
 		}
 		
-		stutter(stack);
+		stutter.stutter(stack);
 	}
 
-	public static Stack<Integer> stutter(Stack<Integer> S) {
+	public static Queue<Integer> stutter(Stack<Integer> S) {
 		Queue<Integer> Q = new LinkedList<Integer>();
 
 		//turns it into a Queue (in reversed)
@@ -40,7 +40,7 @@ public class stutter {
 		}
 
 		System.out.println(Q);
-		return null;
+		return Q;
 		
 	}
 
